@@ -42,6 +42,7 @@
         _passwordText.text = [userDefault valueForKey:@"kpass"];
     }
     // Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"hello");
 }
 
 - (void)viewWillAppear:(BOOL)animated {
